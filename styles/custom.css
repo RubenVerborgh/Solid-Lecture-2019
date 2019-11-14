@@ -65,10 +65,16 @@ blockquote p {
   font-weight: bold;
   font-style: italic;
 }
+.slide.text blockquote {
+  margin-top: 60px;
+}
+cite {
+  font-size: 90%;
+}
 
-img.faded {
-  opacity: .1;
-  filter: contrast(2);
+.faded {
+  opacity: .2;
+  filter: contrast(1.1);
 }
 
 figure.cover img {
